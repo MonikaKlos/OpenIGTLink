@@ -1,0 +1,58 @@
+# CMake generation dependency list for this directory.
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/3.7.0-rc1/CMakeSystem.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/3.7.0-rc1/CMakeCCompiler.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/3.7.0-rc1/CMakeCXXCompiler.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/Windows.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/WindowsPaths.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeCInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC-C.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/3.7.0-rc1/CMakeRCCompiler.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeRCInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeCXXInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Compiler/MSVC-CXX.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindThreads.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMake/OpenIGTLinkCMakeTests.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckFunctionExists.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMake/igtlTestSocklenT.cxx
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/OpenIGTLinkConfigPlatform.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckTypeSize.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CheckIncludeFileCXX.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/igtlConfigure.h.in
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/igtl_typeconfig.h.in
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/igtlTypeConfig.h.in
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/UseOpenIGTLink.cmake.in
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/GenerateOpenIGTLinkConfig.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/OpenIGTLinkConfig.cmake.in
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/OpenIGTLinkConfig.cmake.in
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeExportBuildSettings.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeBuildSettings.cmake.in
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/Dart.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindDart.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CTest.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CTestUseLaunchers.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/DartConfig.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CTestTargets.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/DartConfiguration.tcl.in

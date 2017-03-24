@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1CF1186D-9197-3ED2-A88C-289A0B3DDEFD}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\UseOpenIGTLink.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\UseOpenIGTLink.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\UseOpenIGTLink.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/Tracker/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\UseOpenIGTLink.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeImportBuildSettings.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\OpenIGTLinkTargets.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Examples\Tracker\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\Examples\Tracker\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/ZERO_CHECK.vcxproj">
+      <Project>F35B430A-ED4A-378C-A7B2-EC6F160DC7C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient.vcxproj">
+      <Project>F2291D8D-0B13-3711-B1D4-1FB7075C7D5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient2.vcxproj">
+      <Project>C19470E3-8094-3A06-A477-E2FAD60A3E77</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient3.vcxproj">
+      <Project>E486D94F-5180-3F5E-AC5E-1E85450D5CF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerServer.vcxproj">
+      <Project>9EEEDF25-1506-3124-B565-DC529656AFF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerServer2.vcxproj">
+      <Project>7E6655D8-E719-377B-99F0-717B5725280E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

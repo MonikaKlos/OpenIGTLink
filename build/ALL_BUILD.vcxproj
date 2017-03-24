@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1CF1186D-9197-3ED2-A88C-289A0B3DDEFD}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/ZERO_CHECK.vcxproj">
+      <Project>F35B430A-ED4A-378C-A7B2-EC6F160DC7C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Bind/BindClient.vcxproj">
+      <Project>4DC7B732-5E2D-3A6C-8AB0-C1D4E7EF71C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Capability/CapabilityClient.vcxproj">
+      <Project>2079EE2C-8711-36D4-8A97-2D80A42BBA84</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Capability/CapabilityServer.vcxproj">
+      <Project>CF253BAC-D41D-3176-92EF-D549AEDF55B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/ImageDatabaseServer/ImageDatabaseServer.vcxproj">
+      <Project>8B180614-AE55-3D75-B52A-D853B01328E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/ImageMeta/ImageMetaClient.vcxproj">
+      <Project>A75469A4-B673-3C31-BFEE-11B3EABCD4BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/ImageMeta/ImageMetaServer.vcxproj">
+      <Project>26199BED-0DD2-398D-82E7-A256193D4FF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Imager/ImagerClient.vcxproj">
+      <Project>301A5749-7AD6-3FBF-AC6F-0DAE17DBC8C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Imager/ImagerClient2.vcxproj">
+      <Project>D498C01A-A34B-3E3E-984E-1AB1A3B1C68F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Imager/ImagerClient3.vcxproj">
+      <Project>DD0A4345-1B03-36A1-8CC0-D54EE24F95C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Imager/ImagerServer.vcxproj">
+      <Project>9843C3F2-E47A-35E4-AA09-1918D990B323</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Imager/ImagerServer3.vcxproj">
+      <Project>12498205-54B6-3A56-9136-C5AE69D078C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/ImageMeta/LabelMetaClient.vcxproj">
+      <Project>2B9A4DD4-EF06-37FB-AAE7-8BD118543423</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/ImageMeta/LabelMetaServer.vcxproj">
+      <Project>FC098FB4-A038-370B-A0BB-0823FF38FAE7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Thread/MultipleMethodExecute.vcxproj">
+      <Project>18E3BD05-115A-3119-B271-0DB9E29989B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Source/OpenIGTLink.vcxproj">
+      <Project>9E654E0E-A441-3CB4-B8AA-7641E36D0D8D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Point/PointClient.vcxproj">
+      <Project>DC596105-0DC4-3B9A-BE2B-BA1B924D0BB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Point/PointClient3.vcxproj">
+      <Project>EBA8547A-1EEA-37D5-899F-462862ECD08B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Point/PointListServer.vcxproj">
+      <Project>02BFC6B9-74B4-37EE-9F7B-CF62D6FF7D6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Point/PointServer.vcxproj">
+      <Project>6725FD6E-AEDE-39BE-B728-124A931F4A15</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Point/PointServer3.vcxproj">
+      <Project>FAE226FF-FBB6-33F4-89FC-0FD942453DA4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/PolyData/PolyDataClient.vcxproj">
+      <Project>45F2D4A4-69C9-3984-BC4D-201F0998C1BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/PolyData/PolyDataServer.vcxproj">
+      <Project>142574A7-2DFE-36F9-928B-6E28C3CB2C2D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/QuaternionTrackingData/QuaternionTrackingDataClient.vcxproj">
+      <Project>FBAE6513-EB43-36C1-92E3-F2F8FE18B744</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.vcxproj">
+      <Project>8090C340-F03D-3439-922A-1B7042842763</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Receiver/ReceiveClient.vcxproj">
+      <Project>2AF21123-F2BC-3D7A-86FB-29F62B8E522B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Receiver/ReceiveServer.vcxproj">
+      <Project>C3E6AA30-8B8C-3AF4-A2BC-0875617F2FAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/SessionManager/SessionManagerServer.vcxproj">
+      <Project>AF2875A5-F9E7-3CC1-966E-52F7D040FA12</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Thread/SingleMethodExecute.vcxproj">
+      <Project>B8CFC48F-02A7-3FB3-BC9A-21A22E9B6BDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Thread/SpawnThread.vcxproj">
+      <Project>D0F87DF3-5F2B-3B3F-93D4-EEC1921B7D0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Status/StatusClient.vcxproj">
+      <Project>C43554BF-4411-37E8-834D-ADBDEA3CF55C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Status/StatusServer.vcxproj">
+      <Project>1FD3ACAA-A13C-30AB-8D09-00328AE3AC35</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/String/StringClient.vcxproj">
+      <Project>53FA51BA-52E1-36BE-ADBD-F0360E3C362B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/String/StringEchoServer.vcxproj">
+      <Project>3DDD8EFF-E689-3A03-B193-95B2CA78E107</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/String/StringServer.vcxproj">
+      <Project>6EE47A8F-03CF-36B3-B3BA-7F8CB3CBA0B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient.vcxproj">
+      <Project>F2291D8D-0B13-3711-B1D4-1FB7075C7D5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient2.vcxproj">
+      <Project>C19470E3-8094-3A06-A477-E2FAD60A3E77</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerClient3.vcxproj">
+      <Project>E486D94F-5180-3F5E-AC5E-1E85450D5CF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerServer.vcxproj">
+      <Project>9EEEDF25-1506-3124-B565-DC529656AFF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Tracker/TrackerServer2.vcxproj">
+      <Project>7E6655D8-E719-377B-99F0-717B5725280E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/TrackingData/TrackingDataClient.vcxproj">
+      <Project>0DAD4F96-C061-3847-9816-222A61A37D11</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/TrackingData/TrackingDataServer.vcxproj">
+      <Project>78C69FCB-0CD2-36B7-A683-0411D824B7AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Trajectory/TrajectoryClient.vcxproj">
+      <Project>96E71DC7-34CF-3A3C-82FB-535CEE2EBE21</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Examples/Trajectory/TrajectoryServer.vcxproj">
+      <Project>A770BC01-023E-3F3A-B0E1-D49B45EF3C1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/gmock-build/gmock.vcxproj">
+      <Project>7BA17596-94C6-31E8-8D03-C6532CA9E159</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/gmock-build/gmock_main.vcxproj">
+      <Project>835956FD-36BB-3E33-81FF-843C27506252</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/gmock-build/gtest/gtest.vcxproj">
+      <Project>ED5085F0-5038-3BC6-A2A2-C2C8D5D13430</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/gmock-build/gtest/gtest_main.vcxproj">
+      <Project>3734D53C-A833-3783-AFEE-E2C614020214</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlBindMessageTest.vcxproj">
+      <Project>A2CC4561-766D-333E-9231-09A317D3BAFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlCapabilityMessageTest.vcxproj">
+      <Project>03476612-1FD2-350E-AFB5-B0AEC767E519</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlColorTableMessageTest.vcxproj">
+      <Project>16C4EFDF-B3AF-3DAE-B812-15CCD5D8A948</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlCommandMessageTest.vcxproj">
+      <Project>080BBBCC-7294-303D-BAAB-112501E1540C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlConditionVariableTest.vcxproj">
+      <Project>88E1EFC7-6A71-330A-98CD-7B376FBC870C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlImageMessage2Test.vcxproj">
+      <Project>8D88BA90-C041-3E4C-8A0D-129B22ED0F4C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlImageMessageTest.vcxproj">
+      <Project>8755100C-EB66-3665-82F1-764546B54489</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlImageMetaMessageTest.vcxproj">
+      <Project>3F3B7145-0A7F-3727-AC9B-DE3A319493BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlLabelMetaMessageTest.vcxproj">
+      <Project>6632D1B6-03AD-3654-A81E-FA6B8A4B5C4C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlMessageBaseTest.vcxproj">
+      <Project>0692F866-F895-3615-9E7B-78E3C7893430</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlMessageFactoryTest.vcxproj">
+      <Project>3E2C838C-1E24-3854-83C2-9D760D8EF854</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlMultiThreaderTest1.vcxproj">
+      <Project>5624638D-A448-37A8-8CFD-58526C5AD1E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlMultiThreaderTest2.vcxproj">
+      <Project>EE1E6A9D-33E0-3CC0-BE7A-5B32790B282B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlMultiThreaderTest3.vcxproj">
+      <Project>26200A9F-4178-30B4-94B2-C0BFDCB4A517</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlNDArrayMessageTest.vcxproj">
+      <Project>46905C7D-FF00-3FB8-BFDF-C6E387A02550</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlPointMessageTest.vcxproj">
+      <Project>627B1F53-CA48-3054-9E92-0B0E05CE4719</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlPolyDataMessageTest.vcxproj">
+      <Project>4286A952-C917-3AEE-ACB4-F5819E4162B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlPositionMessageTest.vcxproj">
+      <Project>04290864-78AB-3A7A-A76B-542A2AE296DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlSensorMessageTest.vcxproj">
+      <Project>43DCD398-C4BF-3AD8-A473-135B8613DA17</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlStatusMessageTest.vcxproj">
+      <Project>E47FA859-9F28-360D-8FB8-3DDF75F16956</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlStringMessageTest.vcxproj">
+      <Project>08F85C98-E89D-3583-B519-5136A992EAF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlTimeStampTest1.vcxproj">
+      <Project>A5196F56-02A1-3FE4-9532-E4F9263ECED5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlTrackingDataMessageTest.vcxproj">
+      <Project>CFB13A79-A1F1-3F95-A263-57191169F4FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlTrajectoryMessageTest.vcxproj">
+      <Project>9745613B-428C-3CC4-9239-8198DCABFFA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlTransformMessageTest.vcxproj">
+      <Project>F850B2F9-680E-3177-9B3A-3E2F972B32A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_bind_test.vcxproj">
+      <Project>AA4D5D68-3F62-3ABF-8941-EAF00247F6B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_capability_test.vcxproj">
+      <Project>D178B9A1-F6E3-36E3-AA49-6F749D4FB133</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_colortable_test.vcxproj">
+      <Project>30C25961-8963-3409-9AEE-915452AF63FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_header_test.vcxproj">
+      <Project>849CB26B-41EE-3D13-A70B-FAE2ADCB488D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_image_test.vcxproj">
+      <Project>F5366542-FA08-3087-AF1D-013B2EC212E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_imgmeta_test.vcxproj">
+      <Project>C35E35A3-FB5C-351D-A718-6D8F16CDFD68</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_lbmeta_test.vcxproj">
+      <Project>E10505A1-8B20-325E-94CF-B6C313284E12</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_ndarray_test.vcxproj">
+      <Project>37CE597A-A3CA-30E3-9BB7-CD589B20394C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_point_test.vcxproj">
+      <Project>E4DAE71E-9868-3641-8B39-23124734E126</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_polydata_test.vcxproj">
+      <Project>70D135D6-985E-3DAD-8E73-9FDF246BC096</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_position_test.vcxproj">
+      <Project>094E140C-424E-3A46-BACC-19A6C99F1B7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_sensor_test.vcxproj">
+      <Project>1E9A00A4-1DEB-36A5-91BC-72048DFF76D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_status_test.vcxproj">
+      <Project>488B3DA0-D0E2-3DD4-8B87-35D6D6CC229E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_string_test.vcxproj">
+      <Project>24AF38F3-76CE-3785-A295-AE2FEDA76F45</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_tdata_test.vcxproj">
+      <Project>7B2E071B-1587-3A6B-9F51-1FEA556C9485</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_trajectory_test.vcxproj">
+      <Project>D3E776F0-34DE-37F9-A39E-E3EF41E1DB84</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_transform_test.vcxproj">
+      <Project>33150E7B-2599-3993-BE79-63681D15F0A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Testing/igtlutil/igtl_util_test.vcxproj">
+      <Project>3FECF3F3-F8A9-3EA1-A7BB-2128BA1E3901</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/Source/igtlutil/igtlutil.vcxproj">
+      <Project>3815E062-73EF-3735-B628-746CA53D31A2</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

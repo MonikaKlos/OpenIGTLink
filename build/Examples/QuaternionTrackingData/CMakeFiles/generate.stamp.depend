@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/Examples/QuaternionTrackingData/CMakeLists.txt
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/OpenIGTLinkConfig.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/OpenIGTLinkTargets.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/UseOpenIGTLink.cmake
+D:/Insight/cmake-3.7.0-rc1-win64-x64/share/cmake-3.7/Modules/CMakeImportBuildSettings.cmake
+D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/OpenIGTLinkTargets.cmake

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{97DA05B7-774C-3A61-B5A1-420AD04EE029}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Continuous</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\cmake.exe "-HD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink" "-BD:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build" --check-stamp-file "D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindThreads.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckFunctionExists.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfigPlatform.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckTypeSize.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlConfigure.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtl_typeconfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\igtlTypeConfig.h.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\GenerateOpenIGTLinkConfig.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeExportBuildSettings.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeBuildSettings.cmake.in;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\Dart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindDart.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTest.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestUseLaunchers.cmake;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\DartConfig.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\CTestTargets.cmake;D:\Insight\cmake-3.7.0-rc1-win64-x64\share\cmake-3.7\Modules\DartConfiguration.tcl.in;D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\8e489f583322d9e96dff4f9d8d8679b1\Continuous.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\ctest.exe -C $(Configuration) -D Continuous
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/8e489f583322d9e96dff4f9d8d8679b1/Continuous.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\Continuous</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\ctest.exe -C $(Configuration) -D Continuous
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/8e489f583322d9e96dff4f9d8d8679b1/Continuous.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\Continuous</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\ctest.exe -C $(Configuration) -D Continuous
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/8e489f583322d9e96dff4f9d8d8679b1/Continuous.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\Continuous</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Insight\cmake-3.7.0-rc1-win64-x64\bin\ctest.exe -C $(Configuration) -D Continuous
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/CMakeFiles/8e489f583322d9e96dff4f9d8d8679b1/Continuous.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\Continuous</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/StudiaMGR/semestr 3/PWP/lab2/OpenIGTLink/build/ZERO_CHECK.vcxproj">
+      <Project>F35B430A-ED4A-378C-A7B2-EC6F160DC7C5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

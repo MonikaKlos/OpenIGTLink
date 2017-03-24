@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\StudiaMGR\semestr 3\PWP\lab2\OpenIGTLink\build\CMakeFiles\e5fa461f79306b144016a820ca60c100\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{694BA2F7-8F78-3B8A-ACF2-D31E4DD04B66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
